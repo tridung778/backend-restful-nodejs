@@ -1,0 +1,17 @@
+{
+  "name": "backend-restful-nodejs",
+  "module": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run server.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "express": "4.18.2"
+  }
+}
