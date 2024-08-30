@@ -30,3 +30,20 @@
   background-color: #04aa6d;
   color: white;
 }
+
+.form-add-new {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input-group {
+  padding: 10px;
+}
+
+button {
+  margin: 10px;
+  cursor: pointer;
+}
