@@ -12,7 +12,7 @@ const hostname = process.env.HOST_NAME;
 
 configViewEngine(app);
 
-app.use("/test", router);
+app.use("/", router);
 
 // A simple SELECT query
 connection.query("select * from users", function (err, results, fields) {

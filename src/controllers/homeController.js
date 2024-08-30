@@ -1,11 +1,7 @@
 import connection from "../config/database.js";
 
 const getHomePage = (req, res) => {
-  // A simple SELECT query
-  connection.query("select * from users", function (err, results, fields) {
-    console.log("Result====>", results);
-    res.send(JSON.stringify(results));
-  });
+  return res.render("home");
 };
 
 const getExamplePage = (req, res) => {

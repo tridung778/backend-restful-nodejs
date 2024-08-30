@@ -3,8 +3,8 @@ import { getExamplePage, getHomePage } from "../controllers/homeController.js";
 
 const router = express.Router();
 
-router.get("/", getExamplePage);
+router.get("/", getHomePage);
 
-router.get("/hello", getHomePage);
+router.get("/hello", getExamplePage);
 
 export default router;
