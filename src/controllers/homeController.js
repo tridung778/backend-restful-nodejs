@@ -8,4 +8,10 @@ const getExamplePage = (req, res) => {
   res.render("sample");
 };
 
-export { getHomePage, getExamplePage };
+const createUser = (req, res) => {
+  console.log('req.body====>', req);
+
+  res.send("create user");
+};
+
+export { getHomePage, getExamplePage, createUser };

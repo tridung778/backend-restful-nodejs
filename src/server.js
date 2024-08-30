@@ -12,6 +12,9 @@ const hostname = process.env.HOST_NAME;
 
 configViewEngine(app);
 
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
 app.use("/", router);
 
 // A simple SELECT query

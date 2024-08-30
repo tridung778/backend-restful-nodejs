@@ -16,27 +16,27 @@
         <a href="#about">About</a>
     </div>
 
-    <div class="form-add-new">
+    <form class="form-add-new" action="/create-user" method="post">
         <fieldset>
             <legend>Form add new user</legend>
             <div class="input-group">
                 <label for="">Email: </label>
-                <input type="text">
+                <input type="text" name="email">
             </div>
             <div class="input-group">
                 <label for="">Name: </label>
-                <input type="text">
+                <input type="text" name="name">
             </div>
             <div class="input-group">
                 <label for="">City: </label>
-                <input type="text">
+                <input type="text" name="city">
             </div>
             <div>
                 <button>Add new</button>
             </div>
         </fieldset>
 
-    </div>
+    </form>
 </body>
 
 </html>
